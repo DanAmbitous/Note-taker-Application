@@ -1,0 +1,32 @@
+.container-div {
+  display: inline-block;
+}
+
+.note-div {
+  background-color: #ffffa0;
+  width: 25vw;
+  height: 25vh;
+  padding: 1vw;
+  margin: 1vw;
+  box-shadow: 0vw 0vw 1vw 0px grey;
+  border-radius: 1vw;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.remove-note {
+  margin-left:4vw;
+}
+
+.expand-button, .minify-button {
+  margin-left: 0.5vw;
+}
+
+.remove-note, .expand-button, .minify-button {
+  top:-20px; 
+  right:-2px;
+}
+
+#notes {
+  text-align: center;
+}
